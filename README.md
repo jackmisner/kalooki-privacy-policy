@@ -1,5 +1,4 @@
-# kalooki-privacy-policy
-Privacy policy for Kalooki app
+# Privacy policy for Kalooki app
 
   - Kalooki does not collect, transmit, or share personal data
   - All game data (saves, statistics, settings) is stored locally on device
