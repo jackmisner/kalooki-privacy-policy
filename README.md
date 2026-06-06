@@ -6,8 +6,9 @@
   the developer by email — it is only sent if you explicitly choose to
   - The optional in-game "Report a problem" feature (solo games) lets you send a bug report — the current game state, the moves
   played that game, and your app version, device model, and display settings — only when you explicitly choose to. It is sent
-  from your own email app; player names are replaced with generic placeholders (Player 1, Player 2, etc.), no account information
-  is included, and your email address is removed before the developer receives the report
+  from your own email app; player names are replaced with generic placeholders (Player 1, Player 2, etc.) and no account
+  information is included. The report passes through an automated relay service (Cloudflare Email Routing) that removes your email
+  address in transit, so the developer receives the report without it
   - Local multiplayer uses Google Nearby Connections for peer-to-peer communication between nearby devices — no data is sent to
   external servers
   - Player names are user-chosen and not linked to real identity
